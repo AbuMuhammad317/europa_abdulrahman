@@ -1,0 +1,12 @@
+# Hemligheter (inloggning till databasen)
+.env
+
+# Virtuell Python-miljö
+.venv/
+
+# Lokala databasfiler
+*.db
+
+# Tillfälliga filer från Jupyter och Python
+.ipynb_checkpoints/
+__pycache__/
