@@ -62,6 +62,16 @@ python kor.py
 
 Öppna `analys.ipynb` i VS Code, välj `.venv` och klicka på Run All.
 
+### Visa resultaten som en lokal hemsida
+
+```
+python -m nbconvert --to html --no-input analys.ipynb
+start analys.html
+```
+
+Det skapar `analys.html` med diagram, tabeller och svar, utan kod. Sidan visar det som är sparat
+i notebooken.
+
 ## Slutsatser (år 2025)
 
 Siffrorna hämtades 26 november 2026. Eurostat kan ändra dem senare.
@@ -86,8 +96,10 @@ och inte en orsak.
 | `b31e8f1` | Dela upp koden i hämta, rensa, spara och kör | En fil för varje steg |
 | `ddcdc55` | Hämta utbildning till tabellen utbildning | Samma flöde för ett till dataset |
 | `93ffee0` | Lägg till analysen i en notebook | Datakvalitet, stapeldiagram, Spearman, regression |
+| `1be4df0` | Lägg till README.md | Beskrivning av projektet |
+| `0adbddb` | Lägg till tabeller för resultaten | Tabeller med alla länder och svaren |
 
-README lades till i commiten efter dessa.
+README uppdaterades i commiten efter dessa.
 
 ## Värden att kontrollera på Eurostats webbplats (år 2025)
 
