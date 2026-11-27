@@ -10,3 +10,6 @@
 # Tillfälliga filer från Jupyter och Python
 .ipynb_checkpoints/
 __pycache__/
+
+# Hemsidan som skapas från notebooken
+analys.html
